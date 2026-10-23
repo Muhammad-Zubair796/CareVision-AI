@@ -1,0 +1,25 @@
+# Ignore system and python environment folders
+.local/
+.cache/
+.config/
+.ssh/
+.streamlit/
+.bash*
+.profile
+.wget-hsts
+.gitconfig
+
+# Ignore media and models
+*.mp4
+*.avi
+*.mov
+*.pt
+*.onnx
+
+# Ignore database and logs
+*.db
+*.sqlite
+*.log
+*.save*
+__pycache__/
+*.pyc
